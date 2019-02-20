@@ -1,0 +1,14 @@
+C:\TFS\FBN_HostService\FreamWork.Exception\obj\Debug\FreamWork.Exception.csprojResolveAssemblyReference.cache
+C:\TFS\FBN_HostService\FreamWork.Exception\bin\Debug\FreamWork.Exception.dll
+C:\TFS\FBN_HostService\FreamWork.Exception\bin\Debug\FreamWork.Exception.pdb
+C:\TFS\FBN_HostService\FreamWork.Exception\bin\Debug\FreamWork.dll
+C:\TFS\FBN_HostService\FreamWork.Exception\bin\Debug\FreamWork.pdb
+C:\TFS\FBN_HostService\FreamWork.Exception\obj\Debug\FreamWork.Exception.dll
+C:\TFS\FBN_HostService\FreamWork.Exception\obj\Debug\FreamWork.Exception.pdb
+C:\TFS\ISPY\FreamWork.Exception\bin\Debug\FreamWork.Exception.dll
+C:\TFS\ISPY\FreamWork.Exception\bin\Debug\FreamWork.Exception.pdb
+C:\TFS\ISPY\FreamWork.Exception\bin\Debug\FreamWork.dll
+C:\TFS\ISPY\FreamWork.Exception\bin\Debug\FreamWork.pdb
+C:\TFS\ISPY\FreamWork.Exception\obj\Debug\FreamWork.Exception.csprojResolveAssemblyReference.cache
+C:\TFS\ISPY\FreamWork.Exception\obj\Debug\FreamWork.Exception.dll
+C:\TFS\ISPY\FreamWork.Exception\obj\Debug\FreamWork.Exception.pdb

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9F32FFA-2EB9-4A98-B9F1-CD612C6E43B5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WCF_HostService</RootNamespace>
+    <AssemblyName>HostService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FreamWork.App\FreamWork.App.csproj">
+      <Project>{43ad4b42-2c26-4055-852f-bfeeacaa8642}</Project>
+      <Name>FreamWork.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreamWork.Cache\FreamWork.Cache.csproj">
+      <Project>{90e55aa1-4e65-4144-8bb9-6b003fe12a66}</Project>
+      <Name>FreamWork.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreamWork.Data\FreamWork.Data.csproj">
+      <Project>{61c9f5e7-7bb7-421f-89ba-addbd2c6bc97}</Project>
+      <Name>FreamWork.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreamWork.Exception\FreamWork.Exception.csproj">
+      <Project>{9aced9e9-bfc0-49f7-a485-15d501863be2}</Project>
+      <Name>FreamWork.Exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreamWork.Log\FreamWork.Log.csproj">
+      <Project>{1e24e518-56db-4f16-88f8-df2595fd34b2}</Project>
+      <Name>FreamWork.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreamWork\FreamWork.csproj">
+      <Project>{d7d1e933-6552-42ce-a000-7c860ff3336e}</Project>
+      <Name>FreamWork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServerHost\ServerHost.csproj">
+      <Project>{43cad283-1e62-4c85-8868-597e4dacfdf4}</Project>
+      <Name>ServerHost</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

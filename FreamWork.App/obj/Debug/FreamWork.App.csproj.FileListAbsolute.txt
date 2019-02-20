@@ -1,0 +1,14 @@
+C:\TFS\FBN_HostService\FreamWork.App\bin\Debug\FreamWork.App.dll
+C:\TFS\FBN_HostService\FreamWork.App\bin\Debug\FreamWork.App.pdb
+C:\TFS\FBN_HostService\FreamWork.App\bin\Debug\FreamWork.dll
+C:\TFS\FBN_HostService\FreamWork.App\bin\Debug\FreamWork.pdb
+C:\TFS\FBN_HostService\FreamWork.App\obj\Debug\FreamWork.App.csprojResolveAssemblyReference.cache
+C:\TFS\FBN_HostService\FreamWork.App\obj\Debug\FreamWork.App.dll
+C:\TFS\FBN_HostService\FreamWork.App\obj\Debug\FreamWork.App.pdb
+C:\TFS\ISPY\FreamWork.App\bin\Debug\FreamWork.App.dll
+C:\TFS\ISPY\FreamWork.App\bin\Debug\FreamWork.App.pdb
+C:\TFS\ISPY\FreamWork.App\bin\Debug\FreamWork.dll
+C:\TFS\ISPY\FreamWork.App\bin\Debug\FreamWork.pdb
+C:\TFS\ISPY\FreamWork.App\obj\Debug\FreamWork.App.csprojResolveAssemblyReference.cache
+C:\TFS\ISPY\FreamWork.App\obj\Debug\FreamWork.App.dll
+C:\TFS\ISPY\FreamWork.App\obj\Debug\FreamWork.App.pdb
